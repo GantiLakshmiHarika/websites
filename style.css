@@ -1,0 +1,93 @@
+// CSS CODE 
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+ul.control {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul.control li.buttons {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+ul.control li.buttons:hover {
+    background-color: #0056b3;
+}
+
+div.website, div.content, div.search, div.load, div.mobile, div.social, div.feed, div.marketing, div.localization {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+div.website h3, div.content h3, div.search h3, div.load h3, div.mobile h3, div.social h3, div.feed h3, div.marketing h3, div.localization h3 {
+    margin-top: 0;
+}
+
+div.image-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+div.image-container a {
+    display: inline-block;
+    margin: 10px;
+    transition: transform 0.3s;
+}
+
+div.image-container a img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+div.image-container a img:hover {
+    transform: scale(1.1);
+}
+
+div.image-container a {
+    text-decoration: none;
+}
+
+div.image-container a img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+div.image-container a[data-category="HIGH-QUALITY"]:hover ~ .website,
+div.image-container a[data-category="RELEVANT-CONTENT"]:hover ~ .content,
+div.image-container a[data-category="SEO"]:hover ~ .search,
+div.image-container a[data-category="FAST-LOADING"]:hover ~ .load,
+div.image-container a[data-category="MOBILE-FRIENDLY"]:hover ~ .mobile,
+div.image-container a[data-category="SOCIAL-MEDIA"]:hover ~ .social,
+div.image-container a[data-category="ANALYTICS"]:hover ~ .feed,
+div.image-container a[data-category="MARKETING"]:hover ~ .marketing,
+div.image-container a[data-category="LOCALIZATION"]:hover ~ .localization {
+    background-color: #e0f7fa;
+}
+

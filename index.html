@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Websites Get Traffic</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Why websites get traffic?</h1>
+    <ul class="control">
+        <li class="buttons" data-category="ALL" onclick="filterCategory('ALL')">ALL</li>
+        <li class="buttons" data-category="HIGH-QUALITY" onclick="filterCategory('HIGH-QUALITY')">HIGH-QUALITY</li>
+        <li class="buttons" data-category="RELEVANT-CONTENT" onclick="filterCategory('RELEVANT-CONTENT')">RELEVANT CONTENT</li>
+        <li class="buttons" data-category="SEO" onclick="filterCategory('SEO')">SEARCH ENGINE OPTIMIZATION</li>
+        <li class="buttons" data-category="FAST-LOADING" onclick="filterCategory('FAST-LOADING')">FAST LOADING</li>
+        <li class="buttons" data-category="MOBILE-FRIENDLY" onclick="filterCategory('MOBILE-FRIENDLY')">MOBILE FRIENDLY</li>
+        <li class="buttons" data-category="MARKETING" onclick="filterCategory('MARKETING')">MARKETING AND ADVERTISING</li>
+        <li class="buttons" data-category="SOCIAL-MEDIA" onclick="filterCategory('SOCIAL-MEDIA')">SOCIAL MEDIA PREFERENCE</li>
+        <li class="buttons" data-category="LOCALIZATION" onclick="filterCategory('LOCALIZATION')">LOCALIZATION</li>
+        <li class="buttons" data-category="ANALYTICS" onclick="filterCategory('ANALYTICS')">ANALYTICS AND FEEDBACK</li>
+    </ul>
+
+    <div id="HIGH-QUALITY" class="website">
+        <h3>HIGH-QUALITY</h3>
+        <p>Creating high-quality content is essential for attracting and retaining visitors. Engaging, well-researched articles. Regular updates keep the content fresh and relevant, encouraging return visits. High-quality content establishes credibility and trust with the audience, making them more likely to share it.</p>
+    </div>
+
+    <div id="RELEVANT-CONTENT" class="content">
+        <h3>RELEVANT CONTENT</h3>
+        <p>Relevant content addresses the specific needs and interests of the target audience. Understanding audience demographics and preferences helps in crafting content that resonates with them. Staying up-to-date with current trends ensures the content remains engaging and timely.</p>
+    </div>
+
+    <div id="SEO" class="search">
+        <h3>SEARCH ENGINE OPTIMIZATION</h3>
+        <p>Improving a website's visibility in search engine results. Keyword optimization ensures that the content matches what potential visitors are searching for. On-page SEO, including meta tags and structured data, helps search engines understand the content better.</p>
+    </div>
+
+    <div id="FAST-LOADING" class="load">
+        <h3>FAST LOADING</h3>
+        <p>Optimizing code and compressing images reduce the time it takes for pages to load. Implementing a Content Delivery Network (CDN) helps deliver content quickly to users across the globe. A fast-loading website provides a seamless user experience, encouraging visitors to stay longer and explore more content.</p>
+    </div>
+
+    <div id="MOBILE-FRIENDLY" class="mobile">
+        <h3>MOBILE FRIENDLY</h3>
+        <p>Mobile-friendly layouts and touch-friendly elements improve navigation and usability on smaller screens. Optimizing for fast mobile loading ensures that users on mobile networks have a smooth experience.</p>
+    </div> 
+
+    <div id="SOCIAL-MEDIA" class="social">
+        <h3>SOCIAL MEDIA PREFERENCE</h3>
+        <p>An active social media presence helps drive traffic to the website by reaching a broader audience. Regularly posting engaging content and interacting with followers keeps the audience interested. Creating shareable content increases the likelihood of it being spread across social networks.</p>
+    </div>
+
+    <div id="ANALYTICS" class="feed">
+        <h3>ANALYTICS AND FEEDBACK</h3>
+        <p>Using analytics tools helps monitor and understand traffic patterns and user behavior. Regular analysis of performance metrics, such as page views and bounce rates, provides insights into what's working</p>
+    </div>
+
+    <div id="MARKETING" class="marketing">
+        <h3>MARKETING AND ADVERTISING</h3>
+        <p>Content marketing involves creating valuable content that draws and retains visitors. Affiliate marketing partnerships help expand reach and bring in traffic through external referrals.</p>
+    </div>
+
+    <div id="LOCALIZATION" class="localization">
+        <h3>LOCALIZATION</h3>
+        <p>Localization involves adapting content to meet the language and cultural preferences of different regions. Translating content into multiple languages broadens the website's reach. Understanding local customs and preferences ensures the content is culturally relevant and engaging.</p>
+    </div>
+
+    <div class="image-container">
+        <a href="#HIGH-QUALITY" data-category="HIGH-QUALITY">
+            <img src="pic/quality.jpeg" alt="Quality Image">
+        </a>
+        <a href="#RELEVANT-CONTENT" data-category="RELEVANT-CONTENT">
+            <img src="pic/content.png" alt="Content Image">
+        </a>
+        <a href="#SEO" data-category="SEO">
+            <img src="pic/search.jpeg" alt="Search Image">
+        </a>
+        <a href="#FAST-LOADING" data-category="FAST-LOADING">
+            <img src="pic/fast.jpeg" alt="Fast Image">
+        </a>
+        <a href="#MOBILE-FRIENDLY" data-category="MOBILE-FRIENDLY">
+            <img src="pic/mobile.jpeg" alt="Mobile Image">
+        </a>
+        <a href="#MARKETING" data-category="MARKETING">
+            <img src="pic/market.jpeg" alt="Market Image">
+        </a>
+        <a href="#SOCIAL-MEDIA" data-category="SOCIAL-MEDIA">
+            <img src="C:\Users\91812\Desktop\HTMLDEMO\pic\social.png" alt="Social Image">
+        </a>
+        <a href="#LOCALIZATION" data-category="LOCALIZATION">
+            <img src="pic/localization.jpeg" alt="Localization Image">
+        </a>
+        <a href="#ANALYTICS" data-category="ANALYTICS">
+            <img src="pic/feed.png" alt="Feed Image">
+        </a>
+    </div>
+    <main id="main"></main>
+    <script src="script.js"></script>
+</body>
+</html>
